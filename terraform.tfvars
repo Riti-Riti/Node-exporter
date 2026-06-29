@@ -12,5 +12,5 @@ tags = {
   "Environment"             = "Prod"
   "Created by"              = "ritika.vr@axcess.io"
   "Application"             = "Bastion Server"
-  "Name"                    = "MM-Prod-node-exporter"
+  "Name"                    = "Node-exporter"
 }
