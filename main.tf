@@ -104,12 +104,12 @@ resource "aws_ecs_task_definition" "node_exporter" {
   ])
 
   volume {
-    name = "proc"
+    name      = "proc"
     host_path = var.proc_path
   }
 
   volume {
-    name = "sys"
+    name      = "sys"
     host_path = var.sys_path
   }
 
